@@ -1,0 +1,35 @@
+    @import "/css/footer.css";
+    @import "/css/naav.css";
+    @import "/css/section.css";
+    @import "/css/header.css";
+
+    :root {
+        scroll-behavior: smooth;
+        --bg: rgb(81,224,140);
+    }
+
+    h1::before {
+        content: "*";
+    }
+
+    body{
+        margin: 0;
+        padding: 0;
+        background: rgb(5, 0, 36);
+        font-family: sans-serif;
+        line-height: 30px;
+        color: white;
+    }
+
+    ul {
+        list-style-type: none;
+    }
+
+    a {
+        color: rgb(240, 16, 0);
+        text-decoration: none;
+    }
+
+    a:hover{
+        color: tomato;
+    }

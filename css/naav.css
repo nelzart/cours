@@ -1,0 +1,17 @@
+    nav > ul li{
+        display: inline-block;
+        background: black;
+        width: 110px;
+        text-align: center;
+    }
+
+    nav > ul a {
+        display: inline-block;
+        width: 100%;
+        transition: all 200ms;
+    }
+
+    nav > ul a:hover {
+        height: 90px;
+
+    }
